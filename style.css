@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: t;
-  src: url(font/HelveticaNowDisplay-Light.ttf);
+  src: url(./font/HelveticaNowDisplay-Light.ttf);
 }
 
 @font-face {
   font-family: m;
-  src: url(font/HelveticaNowDisplay-Medium.ttf);
+  src: url(./font/HelveticaNowDisplay-Medium.ttf);
 }
 body {
   height: 100vh;
@@ -52,7 +52,7 @@ body {
 }
 
 .img {
-  background: url(/img/beatles.webp);
+  background: url(./img/beatles.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
