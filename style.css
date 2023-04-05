@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: t;
+  src: url(font/HelveticaNowDisplay-Light.ttf);
+}
+
+@font-face {
+  font-family: m;
+  src: url(font/HelveticaNowDisplay-Medium.ttf);
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: m;
+  background-color: #331919;
+  color: #e25f4c;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 4rem;
+  padding-top: 3rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-weight: bolder;
+}
+
+.menu span {
+  font-family: t;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.img {
+  background: url(/img/beatles.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 90%;
+}
+
+.img-bg1 {
+  clip-path: circle(39% at 50% 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+}
+
+section {
+  height: 200vh;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0 4rem;
+}
+
+.hole {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.title {
+  margin-left: 7rem;
+}
+
+.social-media {
+  margin-right: 7rem;
+}
